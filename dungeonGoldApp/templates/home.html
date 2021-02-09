@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DungeonGold</title>
+    <!-- <style>
+        .topBar{
+            display: inline-block;
+            vertical-align: top;
+            background-color:blue;
+            color: antiquewhite;
+            background-image: linear-gradient(to bottom, #535353 , #252525);
+            height: 40px;
+            width: 980px;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+        }
+        h4{
+            display: inline-block;
+            vertical-align: top;
+            height: 31px;
+            width: 500px;
+        }
+        a.top-button{    
+            display: inline-block;
+            vertical-align: top;
+            background-color: blue;
+            color:#a3a29a;
+            background-image: linear-gradient(to bottom, #535353, #252525);
+            height: 31px;
+            width: 110px;
+            margin: 0px -16px 0px 12px;
+            padding: 9px 0px 0px 0px;
+            text-decoration: none;
+            }
+        .middle{
+            background-color: purple;
+        }
+        .bottomBar{
+            display: inline-block;
+            vertical-align: top;
+            background-color:green;
+            height: 100px;
+            width: 980px;
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+        }
+    </style> -->
+</head>
+<body>
+    <div class="container">
+        <div class="topBar">
+            <h4>Welcome, {{loggedInUser.first_name}}!</h4>
+            <a href="/newCamp" class="top-button">New Campaign</a>
+            <a href="/newChar" class="top-button">New Character</a>
+            <a href="/logout" class="top-button">Logout</a>
+        </div>
+        <div class="middle">
+            <h1>This page will be where the list of characters and campaign exists</h1>
+        </div>
+        <div class="bottomBar"></div>
+    </div>
+</body>
+</html>
